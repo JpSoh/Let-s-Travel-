@@ -1,0 +1,39 @@
+.mt-20 {
+	margin-top: 20px;
+}
+footer {
+	height: 80px;
+	margin-top: 50px;
+}
+footer>.container, footer .row {
+	height: 100%;
+}
+
+.card-block{
+	padding: 15px;
+}
+
+.w30{
+	width: 30%;
+}
+
+.w20{
+	width: 20%;
+}
+
+.w10{
+	width: 10%;
+}
+
+.w5{
+	width: 5%;
+}
+.articles{
+	margin-top: 15px;
+}
+.article-inline{
+	padding-left: 10px;
+}
+.article-inline:nth-of-type(odd){
+	background: rgba(0, 0, 0, 0.05);
+}
