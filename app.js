@@ -13,7 +13,7 @@ app.use(express.static('public'));
 //Connect to auth file for checking token
 let auth = require('./controllers/auth');
 //Connect to Database
-mongoose.connect('mongodb://localhost/travels');
+mongoose.connect('mongodb+srv://jp71:266746@projects.ejscg.mongodb.net/travels');
 //Convert JSON format
 app.use(express.json());
 //Import Router
